@@ -1,0 +1,4 @@
+for: es un bucle que sirve para hacer varias iteraciones y se termina cuando yo lo fije en un valor
+&&: significa and = y. donde una variable puede hacer dos o mas cosas, sirve para unir
+||: significa or = o donde una variable puede hacer una cosa u la otra
+!: significa not = no es una negacion que refleja que una variable no puede hacer algo
