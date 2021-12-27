@@ -1,0 +1,2 @@
+Arrays: Son arreglos, son listas de elementos ordenadas, en la cuales puedo encontrar cualquier tipo de datos:
+Strings, numeros, funciones.
