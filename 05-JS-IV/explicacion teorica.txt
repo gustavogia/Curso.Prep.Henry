@@ -1,0 +1,10 @@
+objetos : Es una coleccion de propiedades donde puedo encontrar por dentro un nombre o clave y un vsaor de la misma
+           dentro de los objetos puedo encontrar "strings", objetos, array, variables.
+Propiedades: Como se explica anteriormente se encuentran dentro de los objetos y tienen un valor.
+             las propiedades pueden ser: funciones (metodo), objetos, array.  
+Metodo: es el nombre como se la conoce a una funcion que se encuentra dentro de un objeto.
+bucle for in: me permite recorrer todo el objeto e invoca a todas las propiedades y sus valores.
+
+Notificacion por puntos: Se llama dot notation donde puedo invocar a una propiedad del objeto y la diferencia que
+existe con respecto a la notificacion por corchetes ( bracket notation) es que no me permite invocar a una variable 
+lo cual sucede en un dot notation.
