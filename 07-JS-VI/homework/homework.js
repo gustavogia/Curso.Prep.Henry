@@ -41,7 +41,7 @@ function forEach(array, cb) {
   //Tu código:
 //for (var i =0; i<array.length; i++) {  cb(array[i])}
 
-array.forEach(function (elemento) {console.log (cb(elemento))} )
+array.forEach(function (elemento) {(cb(elemento))} )
 }
 
 function map(array, cb) {
@@ -50,28 +50,34 @@ function map(array, cb) {
   // El nuevo array debe tener la misma longitud que el array del argumento
   //Tu código:
   
-//var nuevoarray =[]
-//for (var i =0; i< array.length; i++)
-//{ nuevoarray.push(cb(array[i])) 
-//nuevoarray[i]=cb(array [i])}
+var nuevoarray =[]
+for (var i =0; i< array.length; i++)
+{ nuevoarray.push(cb(array[i])) }
+return nuevoarray
+
+//var nuevoarray= array.map(function (elemento) {
+  //return cb(elemento)
+//});
 //return nuevoarray
 
-var nuevoarray= array.map(function (elemento) {
-  return cb(elemento)
-});
-return nuevoarray
 }
 
 function filter(array) {
   //Filtrar todos los elementos del array que comiencen con la letra "a".
   //Devolver un nuevo array con los elementos que cumplen la condición
   //Tu código:
-var nuevoarray =[]
-for (var i =0; i< array.length;i++){
-if( array[i][0] === "a")
- {nuevoarray.push (array [i])}
-}
-return nuevoarray
+
+//var nuevoarray =[]
+//for (var i =0; i< array.length;i++){
+//if( array[i][0] === "a")
+// {nuevoarray.push (array [i])}
+//}
+//return nuevoarray
+
+ //return array.filter (e => e[0]=== "a")
+
+ return array.filter(function (e){return e[0] === "a"})
+
 }
 
 // No modificar nada debajo de esta línea
