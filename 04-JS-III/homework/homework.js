@@ -69,6 +69,8 @@ for (var i=0 ; i< array.length-1;i++)
 if (array[i] === elemento)
 return true;
  return false
+
+ //return array.includes(elemento)
 }
 
 
@@ -123,9 +125,9 @@ function cuentoElementos(arreglo){
   //Realiza una función que retorne la cantidad de los elementos del arreglo cuyo valor es mayor a 18.
   //Escribe tu código aquí
 var a = 0
-for ( var i = 0; i < arreglo.length ; i++) {if ( arreglo [i] > 18) a++}
+for ( var i = 0; i < arreglo.length ; i++) {if ( arreglo [i] > 18) a=a+1}
 return a
-
+//a=a+1  =  a+=1
 }
 
 
@@ -144,7 +146,7 @@ function empiezaConNueve(n) {
   //inicia con 9 y false en otro caso.
   //Escribe tu código aquí
   var a = n.toString ()
-  if (a[0]=== "9") {return true}
+  if ( a[0]=== "9") {return true}
   return false
 }
 

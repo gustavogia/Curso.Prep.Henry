@@ -1,0 +1,4 @@
+prototype: Son metodos del objeto que queremos construir. cuando creamos una clase ( una plantilla) lo que hace el prototype
+es crear como una base un metodo u objeto para que podamos usarlo indefinidamente y no tengamos que repetirlos.  
+Constructors  (de Clases) : Son los que nos que nos permiten crear las plantillas (clase) en las que podemos utilizar dos formas
+es6 y funcion constructor
