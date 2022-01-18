@@ -105,7 +105,7 @@ function deleteAbc(cadena){
   var nuevacadena = cadena.replace(/[abc]/g,"")
 return nuevacadena
 
-//otra forma
+//otra forma:
 //  var cad = ""
 // for( var i=0;i <cadena.length; i++)
  //{ if (cadena [i]!=="a"&& cadena [i]!== "b"&& cadena[i]!=="c"){ cad= cad+cadena[i]}}
